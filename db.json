@@ -1,106 +1,60 @@
 {
-  "sensors": [
+  "supermercado": "SuperAhorro",
+  "compras": [
     {
-      "id": 1,
-      "location": {
-        "name": "Centro",
-        "coordinates": {
-          "lat": 37.8882,
-          "lng": -4.7794
+      "fecha_hora": "2025-05-31T09:15:00",
+      "comprador": {
+        "nombre": "Lucía",
+        "apellido": "Gómez",
+        "dni": "30123456"
+      },
+      "productos": [
+        {
+          "nombre": "Leche",
+          "cantidad": 3,
+          "precio_unitario": 150.0
+        },
+        {
+          "nombre": "Pan",
+          "cantidad": 2,
+          "precio_unitario": 100.0
         }
-      },
-      "type": {
-        "id": 1,
-        "name": "temperatura"
-      },
-      "value": 23.5,
-      "unit": "°C",
-      "timestamp": "2025-03-28T09:00:00Z"
+      ]
     },
     {
-      "id": 2,
-      "location": {
-        "name": "Norte",
-        "coordinates": {
-          "lat": 37.9000,
-          "lng": -4.7500
+      "fecha_hora": "2025-05-31T10:45:00",
+      "comprador": {
+        "nombre": "Carlos",
+        "apellido": "Pérez",
+        "dni": "27890123"
+      },
+      "productos": [
+        {
+          "nombre": "Huevos",
+          "cantidad": 1,
+          "precio_unitario": 350.0
         }
-      },
-      "type": {
-        "id": 2,
-        "name": "humedad"
-      },
-      "value": 55,
-      "unit": "%",
-      "timestamp": "2025-03-28T09:05:00Z"
+      ]
     },
     {
-      "id": 3,
-      "location": {
-        "name": "Sur",
-        "coordinates": {
-          "lat": 37.8700,
-          "lng": -4.8000
+      "fecha_hora": "2025-05-31T11:30:00",
+      "comprador": {
+        "nombre": "Mariana",
+        "apellido": "López",
+        "dni": "31222333"
+      },
+      "productos": [
+        {
+          "nombre": "Fideos",
+          "cantidad": 4,
+          "precio_unitario": 90.0
+        },
+        {
+          "nombre": "Galletitas",
+          "cantidad": 2,
+          "precio_unitario": 120.0
         }
-      },
-      "type": {
-        "id": 3,
-        "name": "calidad del aire"
-      },
-      "value": 42,
-      "unit": "AQI",
-      "timestamp": "2025-03-28T09:10:00Z"
-    },
-    {
-      "id": 4,
-      "location": {
-        "name": "Este",
-        "coordinates": {
-          "lat": 37.8882,
-          "lng": -4.7400
-        }
-      },
-      "type": {
-        "id": 4,
-        "name": "nivel de CO2"
-      },
-      "value": 415,
-      "unit": "ppm",
-      "timestamp": "2025-03-28T09:15:00Z"
-    },
-    {
-      "id": 5,
-      "location": {
-        "name": "Oeste",
-        "coordinates": {
-          "lat": 37.8882,
-          "lng": -4.8200
-        }
-      },
-      "type": {
-        "id": 5,
-        "name": "ruido"
-      },
-      "value": 68,
-      "unit": "dB",
-      "timestamp": "2025-03-28T09:20:00Z"
+      ]
     }
-  ],
-  "history": [
-    { "id": 101, "sensorId": 1, "timestamp": "2025-03-28T08:00:00Z", "value": 22.0 },
-    { "id": 102, "sensorId": 1, "timestamp": "2025-03-28T08:30:00Z", "value": 23.0 },
-    { "id": 103, "sensorId": 1, "timestamp": "2025-03-28T09:00:00Z", "value": 23.5 },
-    { "id": 201, "sensorId": 2, "timestamp": "2025-03-28T08:05:00Z", "value": 53 },
-    { "id": 202, "sensorId": 2, "timestamp": "2025-03-28T08:35:00Z", "value": 54 },
-    { "id": 203, "sensorId": 2, "timestamp": "2025-03-28T09:05:00Z", "value": 55 },
-    { "id": 301, "sensorId": 3, "timestamp": "2025-03-28T08:10:00Z", "value": 40 },
-    { "id": 302, "sensorId": 3, "timestamp": "2025-03-28T08:40:00Z", "value": 41 },
-    { "id": 303, "sensorId": 3, "timestamp": "2025-03-28T09:10:00Z", "value": 42 },
-    { "id": 401, "sensorId": 4, "timestamp": "2025-03-28T08:15:00Z", "value": 410 },
-    { "id": 402, "sensorId": 4, "timestamp": "2025-03-28T08:45:00Z", "value": 412 },
-    { "id": 403, "sensorId": 4, "timestamp": "2025-03-28T09:15:00Z", "value": 415 },
-    { "id": 501, "sensorId": 5, "timestamp": "2025-03-28T08:20:00Z", "value": 66 },
-    { "id": 502, "sensorId": 5, "timestamp": "2025-03-28T08:50:00Z", "value": 67 },
-    { "id": 503, "sensorId": 5, "timestamp": "2025-03-28T09:20:00Z", "value": 68 }
   ]
 }
